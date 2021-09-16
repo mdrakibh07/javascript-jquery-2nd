@@ -1,0 +1,212 @@
+/*=============
+common code start
+===============*/
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: black !important;
+  margin: 0;
+  text-align: center;
+  font-family:cursive;
+}
+/*=============
+common code start
+===============*/
+
+.parallax{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+
+}
+.parallax{
+  color: white;
+  width: 100%;
+  height: 450px;
+  padding-top: 120px;
+  padding-left:250px;
+  padding-right:250px;
+  margin-top: 20px;
+
+}
+.parallax h1{
+  font-size: 50px;
+  display: inline-block;
+}
+.parallax p{
+  font-size: 20px;
+  display: inline-block;
+  padding: 0 100px;
+}
+.parallax_con {
+  margin-top: 20px;
+  /* padding: 0; */
+  line-height: 27px;
+  word-spacing: 5px;
+  max-width: 700px;
+  margin: auto;
+}
+.parallax_con h1{
+  text-transform: uppercase;
+  padding-top: 31px;
+  padding-bottom: 10px;
+  font-size: 26px;
+}
+.parallax_con p {
+  padding-bottom: 50px;
+}
+
+
+.counts {
+  margin-top: 50px;
+  text-align: center;
+  background-color: black;
+  color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.h1 {
+  text-align: center;
+  margin-top: 20px;
+  text-transform: uppercase;
+}
+.box {
+  text-align: center;
+  margin-top: 50px;
+  height: 300px;
+  background-color: saddlebrown;
+}
+.box h1 {
+  color: white;
+  margin-bottom: 20px;
+  padding-top: 33px;
+  font-size: 31px;
+  text-transform: uppercase;
+}
+.box p {
+  padding: 0 100px;
+  line-height: 30px;
+}
+ /* slider */
+ .bgclor {
+   margin-top: 30px;
+   margin-bottom: 30px;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  background-color: #7d718e;
+}
+.sli_he {
+  color: white;
+  margin-bottom: 19px;
+  text-transform: uppercase;
+  margin-left: -76px;
+}
+.slick-next {
+  right: -17px;
+}
+.slick-prev {
+  left: -39px;
+}
+.slick-slide {
+  margin-right: 20px;
+}
+/* mixitup */
+.mix {
+  width: 320px;
+  height: 230px;
+  background-color: #222;
+  float: left;
+  margin-bottom: -15px;
+  margin-right: -15px;
+  text-align: center;
+}
+.mymixcont{
+ margin-left: 45px;
+ margin-bottom: 100px;
+}
+.mixbtns{
+  margin: 30px 0px;
+  text-align: center;
+}
+.mxtheading {
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+.mixbtns a{
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #222;
+  font-family: "Arial";
+  font-size: 11px;
+  text-transform: uppercase;
+}
+.w-des{
+  background-color: #3498db;
+}
+.w-dev{
+  background-color: red;
+}
+/* owl carousel */
+.owlheading{
+  margin-top: 15px;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+}
+.owlcus{
+  margin-bottom: 50px;
+}
+.owlcus img{
+
+}
+/* isotop gellary */
+.isotop{
+
+}
+.Isotopehe{
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.isotops_menu{
+}
+.isotops_menu ul li{
+  display: inline-block;
+  list-style: none;
+  background-color: blue;
+  color: white;
+  font-family: sans-serif;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: .4;
+  -webkit-transition: .4;
+  -moz-transition: .4;
+  -ms-transition: .4;
+  -o-transition: .4;
+}
+.isotops_menu ul li:hover{
+  background-color: rgb(172, 130, 34);
+  color: white;
+}
+.active{
+  background-color: rgb(172, 130, 34);
+  color: white;
+}
+
+
+/* img */
+.isotops_item{
+  width: 100%;
+  margin-bottom: 30px;
+}
+.item{
+  width: 250px;
+  height: 250px;
+  margin: 5px 5px;
+  display: inline-block;
+}
+.item img{
+  width: 100%;
+  height: 100%;
+}
